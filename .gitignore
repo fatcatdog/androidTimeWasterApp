@@ -1,15 +1,18 @@
+# IDE files
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+
+# Build files and output
+build/
+.gradle/
+
+# Local configuration files (sensitive data)
+local.properties
+
+# Mac and Windows junk files
 .DS_Store
-/build
+
+# Other Android Studio files
 /captures
 .externalNativeBuild
 .cxx
-local.properties
